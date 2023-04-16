@@ -5,6 +5,7 @@ import 'simplebar-react/dist/simplebar.min.css'
 
 // import DocumentationTabs from '@/components/DocumentationTabs'
 import type { Metadata } from 'next'
+import DocumentationTabs from '@/components/DocumentationTabs'
 
 export const metadata: Metadata = {
   title: 'Similarity API | Documentation',
@@ -18,7 +19,7 @@ const page: FC = () => {
         <LargeHeading>Making a request</LargeHeading>
         <Paragraph>api/v1/similarity</Paragraph>
 
-        {/* <DocumentationTabs /> */}
+        <DocumentationTabs />
       </div>
     </div>
   )
