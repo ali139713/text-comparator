@@ -1,4 +1,4 @@
-# Similarity API
+# Text comparator
 
 A Next13 full stack API service and website together.
 
